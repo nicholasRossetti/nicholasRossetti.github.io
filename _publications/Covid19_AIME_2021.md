@@ -1,13 +1,13 @@
 ---
-title: "Machine learning models for predicting short-long length of stay of COVID-19 patients"
+title: "An Application of Recurrent Neural Networks for Estimating the Prognosis of COVID-19 Patients in Northern Italy"
 collection: publications
 category: conferences
-permalink: 'https://www.sciencedirect.com/science/article/pii/S1877050922010614'
-#excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2022-09-07
-venue: ' 26th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES), 2022'
+permalink: 'https://link.springer.com/chapter/10.1007/978-3-030-77211-6_36'
+excerpt: 'This paper presents a predictive tool based on Recurrent Neural Networks (RNNs) to estimate the risk of death for hospitalised COVID-19 patients. The goal is to help hospitals manage limited resources—such as ICU beds and ventilators, by identifying high-risk patients in advance. The model uses demographic data, lab test results, and a lung damage severity score from chest X-rays as input features. Trained and tested on data from 2,000 patients in Lombardy, Italy, the system demonstrates strong performance. [paper link](https://link.springer.com/chapter/10.1007/978-3-030-77211-6_36)'
+date: 2021-06-15
+venue: 'Proceedings of the 19th International Conference on Artificial Intelligence in Medicine (AIME)'
 #slidesurl: 'http://academicpages.github.io/files/slides_plangpt_icaps_2024.pdf'
-paperurl: 'http://academicpages.github.io/files/paper_covid19_kes22.pdf'
-citation: 'Machine learning models for predicting short-long length of stay of COVID-19 patients, M. Olivato, N. Rossetti, AE. Gerevini, M. Chiari, L. Putelli, I. Serina - Proceedings of the 26th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES), 2022'
+#paperurl: 'http://academicpages.github.io/files/paper_covid19_kes22.pdf'
+citation: 'An Application of Recurrent Neural Networks for Estimating the Prognosis of COVID-19 Patients in Northern Italy, M. Chiari, AE. Gerevini, M. Olivato, L. Putelli, N. Rossetti, I. Serina - Proceedings of the 19th International Conference on Artificial Intelligence in Medicine (AIME), 2021'
 ---
-This paper presents a machine learning system trained on data from over 6,000 hospitalized patients in northern Italy during the COVID-19 pandemic. The system addresses the challenge of predicting the length of stay for both alive and deceased patients. We introduce a method to handle data from both groups, using information of the outcome of a patient. Additionally, we analyze the most relevant features for predicting the length of stay, providing insights into key factors influencing hospitalization durations.
+Hospital overloads and limited healthcare resources (ICU beds, ventilators, etc.) are fundamental issues related to the outbreak of the COVID-19 pandemic. Machine learning techniques can help the hospitals to recognise in advance the patients at risk of death, and consequently to allocate their resources in a more efficient way. In this paper we present a tool based on Recurrent Neural Networks to predict the risk of death for hospitalised patients with COVID-19. The features used in our predictive models consist of demographics information, several laboratory tests, and a score that indicates the severity of the pulmonary damage observed by chest X-ray exams. The networks were trained and tested using data of 2000 patients hospitalised in Lombardy, the region most affected by COVID-19 in Italy. The experimental results show good performance in solving the addressed task. [paper link](https://link.springer.com/chapter/10.1007/978-3-030-77211-6_36)

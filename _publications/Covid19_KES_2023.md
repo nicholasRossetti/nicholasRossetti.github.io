@@ -1,13 +1,13 @@
 ---
-title: "Machine learning models for predicting short-long length of stay of COVID-19 patients"
+title: "Recurrent Neural Networks for Daily Estimation of COVID-19 Prognosis with Uncertainty Handling"
 collection: publications
 category: conferences
-permalink: 'https://www.sciencedirect.com/science/article/pii/S1877050922010614'
-#excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2022-09-07
-venue: ' 26th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES), 2022'
+permalink: 'https://www.sciencedirect.com/science/article/pii/S1877050923013017'
+excerpt: 'This paper introduces an RNN-based system for daily prognosis estimation of COVID-19 patients. Unlike previous models trained on short-term datasets, this system is built using patient data collected over an extended period, capturing the evolving nature of the pandemic, including the effects of new variants, treatments, and vaccines. Additionally, it incorporates an uncertainty-aware mechanism that discards predictions lacking sufficient confidence, reducing the risk of misleading results.  [paper link](https://www.sciencedirect.com/science/article/pii/S1877050923013017)'
+date: 2023-09-06
+venue: '27th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES)'
 #slidesurl: 'http://academicpages.github.io/files/slides_plangpt_icaps_2024.pdf'
-paperurl: 'http://academicpages.github.io/files/paper_covid19_kes22.pdf'
-citation: 'Machine learning models for predicting short-long length of stay of COVID-19 patients, M. Olivato, N. Rossetti, AE. Gerevini, M. Chiari, L. Putelli, I. Serina - Proceedings of the 26th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES), 2022'
+paperurl: 'http://academicpages.github.io/files/paper_covid19_kes23.pdf'
+citation: 'Recurrent Neural Networks for Daily Estimation of COVID-19 Prognosis with Uncertainty Handling, N. Rossetti, AE. Gerevini, M. Olivato, L. Putelli, M. Chiari, I. Serina, D. Minisci, E. Foca - Proceedings of the 27th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES), 2023'
 ---
-This paper presents a machine learning system trained on data from over 6,000 hospitalized patients in northern Italy during the COVID-19 pandemic. The system addresses the challenge of predicting the length of stay for both alive and deceased patients. We introduce a method to handle data from both groups, using information of the outcome of a patient. Additionally, we analyze the most relevant features for predicting the length of stay, providing insights into key factors influencing hospitalization durations.
+Most ML-based applications for COVID-19 assess the general conditions of a patient trained and tested on cohorts of patients collected over a short period of time and are capable of providing an alarm a few days in advance, helping clinicians in emergency situations, monitor hospitalised patients and identify potentially critical situations at an early stage. However, the pandemic continues to evolve due to new variants, treatments, and vaccines; considering datasets over short periods could not capture this aspect. In addition, these applications often avoid dealing with the uncertainty associated with the prediction provided by machine learning models, potentially causing costly mistakes. In this work, we present a system based on Recurrent Neural Networks (RNN) for the daily estimate of the prognosis of COVID-19 patients that is built and tested using data collected over a long period of time. Our system achieves high predictive performance and uses an algorithm to effectively determine and discard those patients for whom RNN cannot predict the prognosis with sufficient confidence. [paper link](https://www.sciencedirect.com/science/article/pii/S1877050923013017)
