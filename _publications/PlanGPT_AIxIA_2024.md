@@ -4,8 +4,8 @@ collection: publications
 category: conferences
 permalink: 'https://link.springer.com/chapter/10.1007/978-3-031-80607-0_24'
 excerpt: 'This paper introduces a neuro-symbolic approach to improve the reliability of PlanGPT, a gpt-2 model trained from scratch for automated planning. While PlanGPT effectively learns general planning policies, it can produces incomplete or invalid plans that violate action preconditions or only partially achieve goals. To address this, we integrate PlanGPT with the symbolic planner LPG. After PlanGPT generates a candidate plan, a validator checks its validity. If the plan is flawed, LPG repairs or completes it, ensuring a correct solution. Our results show significant improvements in the performance of both PlanGPT and LPG, highlighting the effectiveness of combining learning methods with traditional planning techniques. https://link.springer.com/chapter/10.1007/978-3-031-80607-0_24'
-date: 2024-11-25
-venue: '33th International Conference of the Italian Association for Artificial Intelligence (AIxIA), 2024'
+date: 2024-11-24
+venue: '33th International Conference of the Italian Association for Artificial Intelligence (AIxIA)'
 #slidesurl: 'http://academicpages.github.io/files/slides_plangpt_icaps_2024.pdf'
 paperurl: 'http://academicpages.github.io/files/paper_plangpt_aixia24.pdf'
 citation: 'Integrating Classical Planners with GPT-Based Planning Policies, M. Tummolo, N. Rossetti, AE. Gerevini, M. Olivato, L. Putelli, I. Serina - Proceedings of the 33th International Conference of the Italian Association for Artificial Intelligence (AIxIA), 2024'
