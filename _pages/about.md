@@ -12,3 +12,8 @@ Nicholas Rossetti is a third-year PhD student in the National PhD in Artificial 
 News
 ---
 * 01 March 2025 - Our paper "On Planning Through LLMs" was accepted at ICAPS 2025.
+* 28 November 2024 I have presented our workshop paper "Enhancing GPT-based Planning Policies by Model-based Plan Validation" at the workshop Knowledge Representation and Automated Reasoning (RCRA2024) at AIxIA 2024 held in Bolzano.
+* 26 November 2024 I have presented our workshop paper "How Are Large Language Models Applied to Automated Planning? A Discussion" at the workshop Italian Workshop on Planning and Scheduling (IPS2024) at AIxIA 2024 held in Bolzano.
+* 06 August 2024 Our paper "Integrating Classical Planners with GPT-Based Planning Policies" was accepted at AIxIA 2024.
+* 14 June 2024 Our paper "Enhancing GPT-based Planning Policies by Model-based Plan Validation" was accepted at NeSy 2024.
+* 04 June 2024 - I have presented our paper entiled "Learning general policies for planning through GPT models" at the 34th International Conference on Automated Planning and Scheduling held in Banff.
