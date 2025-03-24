@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* Master’s Degree in Computer Engineering, 110L/110, University of Brescia, 2018/2021
-* Bachelor’s Degree in Information Engineering, 100/110, University of Brescia, 2015/2019
+* Master’s Degree in Computer Engineering, 110L/110, University of Brescia, Thesis: Machine Learning per l’analisi di dati clinici di pazienti con COVID-19, supervisor: Prof. Alfonso Gerevini and Prof. Ivan Serina, 2018/2021
+* Bachelor’s Degree in Information Engineering, 100/110, University of Brescia, Thesis: Navigazione simulata cross piattaforma di un centro commerciale, supervisor: Redolfi Massimiliano, 2015/2019
 * Technical high school diploma, IT specialization e telecommunications, IT division, 95/100, ITIS Benedetto Castelli (BS), 2010-2015
 * Oxford Machine Learning Summer School 2024, MLx Representation Learning and Generative AI, Oxford, England, July 2024
 * European Summer School on Artificial Intelligence (ESSAI) & Advanced Course on AI (ACAI) 2023 Summer School, Ljubljana, Slovenia, July 2023
@@ -69,16 +69,13 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Services
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Program commitee
+  * International Workshop on Advanced Neuro-Symbolic Applications (ECAI) (ANSyA2025)
+  * European Conference of Artificial Intelligence (ECAI2025)
+  * International Conference of Automated Planning and Reasoning (ICAPS2025)
+  * AAAI Conference on Artificial Intelligence - Student Program (2023 - 2024 - 2025)	
+
   
