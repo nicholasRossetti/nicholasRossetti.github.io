@@ -17,3 +17,4 @@ News
 * 06 August 2024 Our paper "Integrating Classical Planners with GPT-Based Planning Policies" was accepted at AIxIA 2024.
 * 14 June 2024 Our paper "Enhancing GPT-based Planning Policies by Model-based Plan Validation" was accepted at NeSy 2024.
 * 04 June 2024 - I have presented our paper entiled "Learning general policies for planning through GPT models" at the 34th International Conference on Automated Planning and Scheduling held in Banff.
+* 12 February 2024 - Our paper "Learning general policies for planning through GPT models" was accepted at ICAPS 2024.
