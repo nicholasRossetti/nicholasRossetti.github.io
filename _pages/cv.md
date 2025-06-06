@@ -11,6 +11,7 @@ redirect_from:
 
 Education
 ======
+* National PHD of Artificial Intelligence, Sapienza, University of Rome, University of Brescia, Thesis: Learning General Policies for Planning through GPT Models, supervisor: Prof. Alfonso Gerevini 2021/2024
 * Master’s Degree in Computer Engineering, 110L/110, University of Brescia, Thesis: Machine Learning per l’analisi di dati clinici di pazienti con COVID-19, supervisor: Prof. Alfonso Gerevini and Prof. Ivan Serina, 2018/2021
 * Bachelor’s Degree in Information Engineering, 100/110, University of Brescia, Thesis: Navigazione simulata cross piattaforma di un centro commerciale, supervisor: Redolfi Massimiliano, 2015/2019
 * Technical high school diploma, IT specialization e telecommunications, IT division, 95/100, ITIS Benedetto Castelli (BS), 2010-2015
@@ -22,16 +23,16 @@ Education
 
 Work experience
 ======
-* November 2021 - Until Now: PhD Student
-  * National PHD course of Artificial Intelligence of Sapienza, università di Roma
-  * Department of Computer Science, University of Brescia.
-  * Supervisor: Prof. Alfonso Gerevini
-
 * November 2024 - Until Now: Researcher in Artificial Intelligence, Deep Learning
   * Department of Computer Science, University of Brescia
 
 * February 2025 - Until now: Support Teacher for course Programming Fundamentals
   * Department of Computer Science, University of Brescia
+
+* November 2021 - May 2025
+  * National PHD course of Artificial Intelligence of Sapienza, università di Roma
+  * Department of Computer Science, University of Brescia.
+  * Supervisor: Prof. Alfonso Gerevini
 
 * February 2024 - September 2024: Support Teacher for course Programming Fundamentals
   * Department of Computer Science, University of Brescia
@@ -51,6 +52,21 @@ Work experience
 * June 2013 - August 2013: Intern in System Administrator
   * Bios Informatica, Sarezzo, Italy 
   
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Services
+======
+* Program commitee
+  * 14th Conference on Prestigious Applications of Intelligent Systems (PAIS-2025)
+  * International Workshop on Advanced Neuro-Symbolic Applications (ECAI) (ANSyA2025)
+  * European Conference of Artificial Intelligence (ECAI2025)
+  * International Conference of Automated Planning and Reasoning (ICAPS2025)
+  * AAAI Conference on Artificial Intelligence - Student Program (AAAI2023 - AAAI2024 - AAAI2025)	
+
 Skills
 ======
 * Languages
@@ -62,20 +78,4 @@ Skills
 * Web
   * HTML, css, JavaScript, Apache Web Server
 * Misc
-  * Academic research, teaching, training, Artificial Intelligence, Deep Learning, Machine Learning, Reinforcement Learning, Docker
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Services
-======
-* Program commitee
-  * International Workshop on Advanced Neuro-Symbolic Applications (ECAI) (ANSyA2025)
-  * European Conference of Artificial Intelligence (ECAI2025)
-  * International Conference of Automated Planning and Reasoning (ICAPS2025)
-  * AAAI Conference on Artificial Intelligence - Student Program (2023 - 2024 - 2025)	
-
-  
+  * Academic research, teaching, training, Artificial Intelligence, Deep Learning, Machine Learning, Reinforcement Learning, Docker  
